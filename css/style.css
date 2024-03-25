@@ -1,0 +1,108 @@
+@import url(responsive.css);
+
+@font-face {
+    font-family: f1;
+    src: url(../fonts/AgeoTrial-Regular.ttf);
+}
+
+@font-face {
+    font-family: f2;
+    src: url(../fonts/AgeoTrial-Bold.ttf);
+}
+
+/*  */
+* {
+    font-family: f2;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.innerFrom {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
+    gap: 20px;
+}
+
+.innerFrom>h1 {
+    margin: 0px;
+}
+
+.innerFrom p {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.userName,
+.inputPassword,
+.inputRetypePassword,
+.inputEmail,
+.submitBtn {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    background-color: rgb(235, 235, 235);
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    outline: none;
+}
+
+.inputPassword,
+.inputRetypePassword {
+    position: relative;
+}
+
+#icon1 {
+    position: absolute;
+    top: 25%;
+    right: 5%;
+}
+
+#icon2 {
+    position: absolute;
+    top: 15%;
+    right: 5%;
+}
+
+#icon3 {
+    position: absolute;
+    top: 15%;
+    right: 5%;
+}
+
+.submitBtn>button {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background-color: #4d0e63;
+    padding: 5px 0px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+a {
+    color: red;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(199, 0, 0);
+}

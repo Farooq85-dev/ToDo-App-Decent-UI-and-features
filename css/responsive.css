@@ -1,0 +1,12 @@
+@media only screen and (max-width: 346px) {
+    .main {
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .icons>ul>li {
+        padding-left: 10px !important;
+    }
+}
